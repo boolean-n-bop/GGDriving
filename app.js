@@ -9,11 +9,7 @@ let navItem = document.querySelector('nav-list');
 // whenever menu is clicked toggle open 
 menuToggler.addEventListener('click', function () {
     body.classList.toggle('open');
-    if (navItem.addEventListener('click', function(){
-        body.classList.toggle('close');
-    }));
 });
-
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
