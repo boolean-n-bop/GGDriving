@@ -376,7 +376,7 @@ header {
   background-color: var(--main-font-color-dark);
 }
 
-/* COURSES */
+/* LESSONS */
 
 .courses {
   background-image: radial-gradient(
@@ -393,6 +393,67 @@ header {
   min-height: 65vh;
   display: flex;
   align-items: center;
+}
+
+.pricelist {
+  font-family: var(--main-font);
+  position: relative;
+  justify-content: center;
+  display: flex;
+  margin-top: 90px;
+}
+
+.card {
+  position: relative;
+  background: #eee;
+  color: var(--secondary-font-color);
+  width: 250px;
+  height: 200px;
+  border-radius: 15px;
+  margin: 20px;
+  transition: all ease-in-out 1s;
+}
+
+.card:hover{
+  box-shadow: 0 0 0 20em inset #0606c4;
+  color: #eee;
+}
+
+.title{
+  font-size: 14px;
+  padding: 2px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.price{
+  margin-top: -25px;
+  text-align: center;
+}
+
+.price h5{
+  font-size: 4em;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.price h5 sup{
+  font-size: 25px
+}
+
+.option{
+  position: relative;
+  padding: 10px;
+}
+
+.option li{
+  text-align: center;
+  font-size: 12px;
+  padding: 2px;
+  font-weight: bold;
+  list-style: none;
 }
 
 /* CONTACT */
